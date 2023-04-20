@@ -1,0 +1,416 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles  $ MY IMAGES STYLE */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1EFF34;
+    background-color: #000;
+}
+h1{
+    color: #FF3737;
+}
+h2{
+    color: #FF3737;
+}
+p{
+    color: white;
+}
+.intro{
+    font-size: 2rem;
+    max-width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+.nav-bar {
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #000;
+}
+.container{
+    max-width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+.my{
+   position: absolute;
+   text-align: center;
+   top: 6rem;
+   left: 5rem;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    transform: scale(0.5);
+    margin-left: -12rem;
+    justify-content: space-between;
+}
+.my-img{
+    border-radius: 20px;
+}
+.my-img2{
+    border-radius: 20px;
+}
+.my-img:hover{
+    transform: translateY(-10px);
+}
+.my-img2:hover{
+    transform: translateY(-10px);
+}
+
+/* Header Styles */
+.hamburger {
+    display: none;
+}
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1EFF34;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+header nav {
+    display: flex;
+    float: right;
+    margin: 30px 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header ul li a {
+    color: #FF3737;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #1EFF34;
+}
+
+/* Main Styles */
+main {
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.project {
+    margin-bottom: 50px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Contact Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-family: inherit;
+    resize: none;
+}
+
+textarea {
+    height: 200px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: blueviolet;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    text-align: center;
+} 
+
+/* RESPONSIVE STYLE */
+@media screen and (max-width:768px) {
+    .div{
+        display: flex;
+        flex-direction: column;
+        /* max-width: 100%; */
+        margin-left: 10px;
+        transform: scale(0.8);
+        gap: 32px;
+    }
+}
+
+/* ANIMATIONS */
+.box div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid yellowgreen;
+}
+
+.box div:nth-child(1) {
+    top: 12%;
+    left: 24%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(3) {
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4) {
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5) {
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6) {
+    top: 90%;
+    left: 20%;
+    animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7) {
+    top: 100%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8) {
+    top: 40%;
+    left: 35%;
+    animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9) {
+    top: 90%;
+    left: 5%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10) {
+    top: 80%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+
+.box div:nth-child(11) {
+    top: 130%;
+    left: 74%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(12) {
+    top: 170%;
+    left: 85%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(13) {
+    top: 150%;
+    left: 2%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(14) {
+    top: 190%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(15) {
+    top: 200%;
+    left: 2%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(16) {
+    top: 200%;
+    left: 80%;
+    animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(17) {
+    top: 100%;
+    left: 85%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(18) {
+    top: 210%;
+    left: 35%;
+    animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(19) {
+    top: 180%;
+    left: 45%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(20) {
+    top: 350%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+
+.box div:nth-child(21) {
+    top: 220%;
+    left: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(22) {
+    top: 410%;
+    left: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(23) {
+    top: 510%;
+    left: 5%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(24) {
+    top: 495%;
+    left: 20%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(25) {
+    top: 500%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(26) {
+    top: 500%;
+    left: 85%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(27) {
+    top: 450%;
+    left: 50%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(28) {
+    top: 450%;
+    left: 85%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(29) {
+    top: 480%;
+    left: 5%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(30) {
+    top: 200%;
+    left: 70%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(31) {
+    top: 480%;
+    left: 30%;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0) translateY() rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* CSS ENDS HERE */
