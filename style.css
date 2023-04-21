@@ -229,6 +229,14 @@ footer {
         display: flex;
         flex-direction: column;
         margin-right: 10rem;
+        zoom: 10%;
+        gap: 20rem;
+    }
+    .my-img{
+        border-radius: 30rem;
+    }
+    .my-img2{
+        border-radius: 30rem;
     }
     .nav-links {
         display: none;
