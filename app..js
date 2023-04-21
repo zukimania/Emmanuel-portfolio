@@ -1,23 +1,21 @@
-// Create navigation links
-const links = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
-];
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const line1 = document.querySelector(".line-1");
+const line2 = document.querySelector(".line-2");
+const line3 = document.querySelector(".line-3");
+const navLinks = document.querySelector(".nav-links");
 
-// Create navigation bar
-const navbar = document.querySelector('.navbar');
-const hamburger = document.querySelector('.hamburger');
-links.forEach(link => {
-  const a = document.createElement('a');
-  a.textContent = link.label;
-  a.href = link.href;
-  navbar.appendChild(a);
+hamburgerMenu.addEventListener("click", () => {
+  line1.classList.toggle("active");
+  line2.classList.toggle("active");
+  line3.classList.toggle("active");
+  navLinks.classList.toggle("active");
 });
 
-// Toggle navigation bar
-hamburger.addEventListener('click', () => {
-  navbar.classList.toggle('active');
+ window.addEventListener("resize", () => {
+if (window.innerWidth > 768) {
+navLinks.classList.remove("active");
+line1.classList.remove("active");
+line2.classList.remove("active");
+line3.classList.remove("active");
+}
 });
