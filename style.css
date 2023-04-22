@@ -56,6 +56,10 @@ p{
     border-radius: 2rem;
 }
 /* Header Styles */
+.logo{
+    font-size: 25px;
+    font-weight: bolder;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -247,10 +251,10 @@ footer {
         margin: 0;
         padding: 0;
         position: absolute;
-        top: 70px;
+        top: 75px;
         left: 0;
         width: 80%;
-        height: calc(50vh - 60px);
+        height: calc(80vh - 60px);
         transition: all 0.5s ease;
         z-index: 1;
         border-radius: 3rem;
@@ -264,7 +268,11 @@ footer {
     .nav-links li {
         margin: 10px;
         margin-top: 2rem;
+        font-size: 2.6rem;
     }
+        .nav-links li a:hover {
+            color: #1EFF34;
+        }
 }
 
 /* ANIMATIONS */
