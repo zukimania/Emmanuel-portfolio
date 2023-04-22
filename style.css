@@ -44,7 +44,7 @@ p{
     display: flex;
     flex-direction: row;
     padding-left: 20rem;
-    gap: 2rem;
+    gap: 5rem;
     zoom: 50%;
 }
 .my-img{
@@ -231,6 +231,7 @@ footer {
         margin-right: 10rem;
         zoom: 10%;
         gap: 20rem;
+        transition: 1s ease-in-out;
     }
     .my-img{
         border-radius: 30rem;
