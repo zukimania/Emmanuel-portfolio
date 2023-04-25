@@ -20,13 +20,7 @@ h2{
     color: #FF3737;
 }
 p{
-    color: white;
-}
-.intro{
-    font-size: 2rem;
-    max-width: 960px;
-        margin: 0 auto;
-        padding: 0 15px;
+    color: #fefefe;
 }
 .container{
     max-width: 960px;
@@ -126,7 +120,14 @@ main {
 }
 
 section {
-    padding: 60px 0;
+    padding: 100px 0;
+}
+.intro {
+    font-size: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top: 10px;
 }
 
 section h2 {
@@ -471,5 +472,4 @@ footer {
         opacity: 0;
     }
 }
-
 /* CSS ENDS HERE */
