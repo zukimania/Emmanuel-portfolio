@@ -289,6 +289,9 @@ footer {
         .nav-links li a:hover {
             color: #1EFF34;
         }
+        .welcome{
+        margin-top: 5rem;
+        }
 }
 
 /* ANIMATIONS */
