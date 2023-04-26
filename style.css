@@ -119,6 +119,22 @@ main {
     margin-bottom: 50px;
 }
 
+#name{
+    /* margin-top: 5rem; */
+    background: url(images/179032205005.jpg);
+    background-size: cover;
+        background-repeat: no-repeat no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+}
+.name{
+    margin-top: 1rem;
+}
+.welcome{
+    margin-top: 10rem;
+}
+
 section {
     padding: 88px 0;
 }
