@@ -134,7 +134,15 @@ main {
 .welcome{
     margin-top: 10rem;
 }
+.social-media {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
+.social-media a {
+    text-decoration: none;
+}
 section {
     padding: 88px 0;
 }
@@ -174,10 +182,8 @@ section p {
     font-weight: bold;
     margin-bottom: 10px;
 }
-.social-media{
-    max-width: 960px;
-        margin: 0 auto;
-        padding: 0 15px;
+.social-icons2 a{
+    text-decoration: none;
 }
 
 /* Contact Form Styles */
