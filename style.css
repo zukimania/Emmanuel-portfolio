@@ -10,14 +10,14 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #1EFF34;
-    background-color: #000;
+    color: white;
+    background: linear-gradient(to bottom, #491d49, #1b2e2e);
 }
 h1{
-    color: #FF3737;
+    color: orangered;
 }
 h2{
-    color: #FF3737;
+    color: orangered;
 }
 p{
     color: #fefefe;
@@ -59,7 +59,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    color: #1EFF34;
+    color: whitesmoke;
     font-family: Arial, sans-serif;
     padding: 10px;
     position: fixed;
@@ -108,6 +108,7 @@ nav {
     list-style-type: none;
     color: #FF3737;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 .nav-links li a:hover{
     color: #1EFF34;
@@ -121,7 +122,7 @@ main {
 
 #name{
     /* margin-top: 5rem; */
-    background: url(images/179032205005.jpg);
+    background: url(images/creative-cloud-concept-glass-cube-cloudscape-digital-metaverse-infrastructure.jpg);
     background-size: cover;
         background-repeat: no-repeat no-repeat;
         background-position: center;
@@ -276,7 +277,7 @@ footer {
         top: 75px;
         left: 0;
         width: 80%;
-        height: calc(80vh - 60px);
+        height: calc(100vh - 60px);
         transition: all 0.5s ease;
         z-index: 1;
         border-radius: 3rem;
