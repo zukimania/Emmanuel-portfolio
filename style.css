@@ -111,7 +111,6 @@ nav {
     list-style-type: none;
     color: #d25925;
     text-decoration: none;
-    scroll-behavior: smooth;
 }
 .nav-links li a:hover{
     color: #1EFF34;
@@ -119,7 +118,7 @@ nav {
 
 /* Main Styles */
 main {
-    padding-top: 100px;
+    padding-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -148,7 +147,7 @@ main {
     text-decoration: none;
 }
 section {
-    padding: 88px 0;
+    padding: 80px 0;
 }
 .intro {
     font-size: 2rem;
