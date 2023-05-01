@@ -304,6 +304,18 @@ footer {
         .social-media{
             margin-top: -1.5rem;
         }
+        .name{
+            text-align: center;
+        }
+        .about{
+            text-align: center;
+        }
+        .projects{
+            text-align: center;
+        }
+        .contact{
+            text-align: center;
+        }
 }
 
 /* ANIMATIONS */
