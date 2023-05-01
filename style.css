@@ -316,6 +316,9 @@ footer {
         .contact{
             text-align: center;
         }
+        .social-media{
+            zoom: 80%;
+        }
 }
 
 /* ANIMATIONS */
