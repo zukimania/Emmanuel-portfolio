@@ -43,6 +43,7 @@ p{
     padding-left: 20rem;
     gap: 5rem;
     zoom: 50%;
+    flex-basis: calc(33.33% -22px);
 }
 .my-img{
     border: 5px solid #1EFF34;
@@ -132,7 +133,7 @@ main {
         height: 100vh;
 }
 .name{
-    margin-top: 1rem;
+    margin-top: 1rem
 }
 .welcome{
     margin-top: 10rem;
@@ -142,10 +143,16 @@ main {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 15px;
+    box-shadow: 1px 2px 3px solid #1b2e2e;
+        transition: 0.5s ease-out;
 }
 
 .social-media a {
     text-decoration: none;
+}
+.social-media :hover{
+   transform: translateY(-1px);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 section {
     padding: 80px 0;
@@ -169,7 +176,7 @@ section p {
     margin-bottom: 30px;
 }
 
-.project {
+/* .project {
     margin-bottom: 50px;
 }
 
@@ -185,11 +192,59 @@ section p {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+} */
+.projects {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.project h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666666;
+    margin: 10px;
 }
 .social-icons2 a{
     text-decoration: none;
 }
-
+.social-icons2{
+    box-shadow: 2px  rgba(0, 0, 0, 0.2);
+}
+.social-icons2 :hover{
+    transform: translateY(-1px);
+}
 /* Contact Form Styles */
 form {
     max-width: 600px;
@@ -332,7 +387,20 @@ footer {
         .introduction{
             text-align: center;
         }
+        .box div{
+            width: 10%;
+            height: 10vh;
+            border-radius: 1rem;
+        }
+                 .project {
+                     flex-basis: calc(50% - 20px);
+                 }
 }
+ @media screen and (max-width: 480px) {
+     .project {
+         flex-basis: 100%;
+     }
+ }
 
 /* ANIMATIONS */
 .box div {
@@ -340,7 +408,7 @@ footer {
     width: 60px;
     height: 60px;
     background-color: transparent;
-    border: 6px solid yellowgreen;
+    border: 6px solid rgb(21, 110, 112);
 }
 
 .box div:nth-child(1) {
@@ -469,42 +537,42 @@ footer {
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(22) {
-    top: 410%;
+    top: 350%;
     left: 50%;
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(23) {
-    top: 510%;
+    top: 210%;
     left: 5%;
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(24) {
-    top: 495%;
+    top: 390%;
     left: 20%;
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(25) {
-    top: 500%;
+    top: 200%;
     left: 80%;
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(26) {
-    top: 500%;
+    top: 320%;
     left: 80%;
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(27) {
-    top: 450%;
+    top: 300%;
     left: 50%;
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(28) {
-    top: 450%;
+    top: 315%;
     left: 75%;
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(29) {
-    top: 480%;
+    top: 280%;
     left: 5%;
     animation: animate 5s linear infinite;
 }
@@ -514,7 +582,7 @@ footer {
     animation: animate 5s linear infinite;
 }
 .box div:nth-child(31) {
-    top: 480%;
+    top: 330%;
     left: 30%;
     animation: animate 5s linear infinite;
 }
