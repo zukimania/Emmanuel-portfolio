@@ -40,19 +40,18 @@ p{
   }
 /* MY IMAGES */
 .div{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20rem;
-    gap: 5rem;
+    display: grid;
     zoom: 50%;
-    flex-basis: calc(33.33% -22px);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 .my-img{
-    border: 5px solid #1EFF34;
+    border: 5px solid #ff1ee9;
     border-radius: 2rem;
 }
 .my-img2{
-    border: 5px solid #1EFF34;
+    border: 5px solid #ff5a1e;
     border-radius: 2rem;
 }
 /* Header Styles */
@@ -345,18 +344,13 @@ footer {
 
 @media screen and (max-width: 768px) {
     .div{
-        display: flex;
-        flex-direction: column;
-        margin-right: 10rem;
-        zoom: 10%;
-        gap: 20rem;
         transition: 1s ease-in-out;
     }
     .my-img{
         border-radius: 30rem;
     }
     .my-img2{
-        border-radius: 30rem;
+        border-radius: 5rem;
     }
     .nav-links {
         display: none;
