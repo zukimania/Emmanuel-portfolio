@@ -599,7 +599,7 @@ footer {
 
 @keyframes animate {
     0% {
-        transform: translateY(100vh) scale(0);
+        transform: translateY(200vh) scale(0);
     }
 
     100% {
