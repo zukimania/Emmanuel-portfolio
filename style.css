@@ -37,7 +37,7 @@ p{
    text-align: center;
    top: 6rem;
    left: 5rem;
-}
+  }
 /* MY IMAGES */
 .div{
     display: flex;
@@ -147,6 +147,13 @@ main {
     padding: 0 15px;
     box-shadow: 1px 2px 3px solid #1b2e2e;
         transition: 0.5s ease-out;
+}
+.about{
+    text-align: center;
+}
+
+#my{
+    text-align: center;
 }
 
 .social-media a {
