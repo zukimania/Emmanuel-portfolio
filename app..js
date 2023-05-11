@@ -18,4 +18,4 @@ line1.classList.remove("active");
 line2.classList.remove("active");
 line3.classList.remove("active");
 }
-});
+ });
