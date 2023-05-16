@@ -17,6 +17,7 @@ body {
 }
 html{
     scroll-behavior: smooth;
+    color-scheme: dark light;
 }
 h1{
     color: orangered;
@@ -39,7 +40,7 @@ p{
    left: 5rem;
   }
 /* MY IMAGES */
-.div{
+ .div{
     display: grid;
     zoom: 50%;
     align-items: center;
@@ -53,7 +54,7 @@ p{
 .my-img2{
     border: 5px solid #ff5a1e;
     border-radius: 2rem;
-}
+} 
 /* Header Styles */
 .logo{
     font-size: 25px;
@@ -115,7 +116,7 @@ nav {
     text-decoration: none;
 }
 .nav-links li a:hover{
-    color: #1EFF34;
+    color: #fff;
 }
 
 /* Main Styles */
@@ -134,8 +135,9 @@ main {
 }
 .name{
     margin-top: 1rem;
-    color: rgb(255, 60, 0);
+     color: rgb(255, 60, 0);
 }
+
 .welcome{
     margin-top: 10rem;
     font-weight: 500;
@@ -147,10 +149,15 @@ main {
     box-shadow: 1px 2px 3px solid #1b2e2e;
         transition: 0.5s ease-out;
 }
+.social-media:nth-of-type() {
+    transform: translateX(-400%);
+}
+.social-media.show{
+    transform: translateX(0);
+}
 .about{
     text-align: center;
 }
-
 #my{
     text-align: center;
 }
@@ -177,28 +184,36 @@ section h2 {
     font-weight: bold;
     margin-bottom: 30px;
 }
-#skills {
-    margin: 20px 0;
-    max-width: 960px;
-    align-items: center;
-    justify-content: center;
+/* skills style */
+#skills h1{
+    text-align: center;
 }
-
-#skills h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+span {
+    display: block;
+    background-color: #333;
+    margin: 10px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
 }
-
-#skills ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.img1{
+    display: flex;
 }
-
-#skills li {
-    font-size: 18px;
-    margin-bottom: 5px;
+.img1 h4{
+    font-size: 1rem;
+}
+.img1 p{
+    font-size: 0.8rem;
+}
+.img1 img {
+    border-radius: 50px;
+    height: 40px;
+}
+span:hover{
+    border-bottom: 2px white solid;
+    border-left: 2px white solid;
+    box-shadow: 2px 5px 10px rgba(255, 0, 0, 0.369);
 }
 section p {
     font-size: 18px;
@@ -384,7 +399,7 @@ footer {
         font-size: 2.6rem;
     }
         .nav-links li a:hover {
-            color: #1EFF34;
+            color: #fff;
         }
         .welcome{
         margin-top: 5rem;
@@ -426,6 +441,10 @@ footer {
         }
                  .project {
                      flex-basis: calc(50% - 20px);
+                 }
+                 .img1{
+                    display: flex;
+                    flex-direction: column;
                  }
 }
  @media screen and (max-width: 480px) {
@@ -619,7 +638,7 @@ footer {
     animation: animate 5s linear infinite;
 }
 
-@keyframes animate {
+ @keyframes animate {
     0% {
         transform: translateY(200vh) scale(0);
     }
