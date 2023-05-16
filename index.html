@@ -6,6 +6,7 @@
   <title>Emmanuel's Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
 </head>
 <body>
@@ -66,14 +67,19 @@
             <div></div>
         </div>
     </div> 
+    <script src="animate.js"></script>
     
     <!-- INTRODUCTION  -->
 <section id="name">
-  <div class="intro">
+  <div class="intro" data-aos="flip-right">
     <h3 class="welcome">Welcome To My Portfolio</h>
       <h1 class="name">My Name Is Ayodele Emmanuel</h1>
       <p class="am">i"m a FRONT-END DEVELOPER, BACK-END DEVELOPER & UI/UX DESIGNER.</p>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <div class="social-media">
 
     <!-- facebook -->
