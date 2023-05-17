@@ -198,11 +198,11 @@ section h2 {
     text-align: center;
 }
 span {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #333;
-    margin: 10px;
-    /* padding: 10px 40px 10px 10px; */
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     border-radius: 5px;
     font-size: 10px;
     text-align: center;
@@ -219,7 +219,7 @@ span {
     font-size: 0.8rem;
 }
 .img1 img {
-    border-radius: 50px;
+    border-radius: 10px;
     height: 40px;
 }
 span:hover{
