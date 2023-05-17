@@ -60,6 +60,12 @@ p{
     font-size: 25px;
     font-weight: bolder;
 }
+label img{
+    height: 10vh;
+    border-radius: 50%;
+    zoom: 50%;
+    margin: -10px;
+}
 nav {
     display: flex;
     justify-content: space-between;
