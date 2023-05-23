@@ -54,7 +54,7 @@ p{
 .my-img2{
     border: 5px solid #ff5a1e;
     border-radius: 2rem;
-} 
+}
 /* Header Styles */
 .logo{
     font-size: 25px;
@@ -202,6 +202,15 @@ section h2 {
 /* skills style */
 #skills h1{
     text-align: center;
+}
+.hidden{
+    opacity: 0;
+        /* transform: translateY(30px); */
+        transition: opacity 0.9s ease-in-out, transform 0.5s ease-in-out;
+}
+.hidden.animate{
+    opacity: 1;
+        transform: translateX(-1);
 }
 span {
     display: flex;
