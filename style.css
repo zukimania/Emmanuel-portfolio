@@ -7,13 +7,17 @@
 
 /* Global Styles  $ MY IMAGES STYLE */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
-    line-height: 1.5;
     color: white;
     /* background: linear-gradient(to bottom, #491d49, #1b2e2e); */
     /* background: linear-gradient(to top, black, white); */
-    background: rgb(41, 35, 35);
+    /* background: rgb(41, 35, 35); */
+    background-color: #92aebe;
+        background: url(images/16396591_v640-peipei-09-modernbg.jpg);
+        background-repeat: no-repeat no-repeat center;
+        background-size: cover;
+        width: 100%;
 }
 html{
     scroll-behavior: smooth;
@@ -25,9 +29,7 @@ h1{
 h2{
     color: orangered;
 }
-p{
-    color: #fefefe;
-}
+
 .container{
     max-width: 960px;
         margin: 0 auto;
@@ -124,6 +126,7 @@ nav {
 .nav-links li a:hover{
     color: #fff;
 }
+
 
 /* Main Styles */
 main {
@@ -301,6 +304,10 @@ section p {
     color: #666666;
     margin: 10px;
 }
+/* #contact{
+    background: linear-gradient(to bottom, #491d49, #1b2e2e);
+    background-size: cover;
+} */
 button[type="menu"] {
     background-color: #333;
         color: #fff;
