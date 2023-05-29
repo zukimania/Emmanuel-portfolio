@@ -13,8 +13,7 @@ body {
     /* background: linear-gradient(to bottom, #491d49, #1b2e2e); */
     /* background: linear-gradient(to top, black, white); */
     /* background: rgb(41, 35, 35); */
-    background-color: #92aebe;
-        background: url(images/16396591_v640-peipei-09-modernbg.jpg);
+        background: url(images/13398987_5221116.jpg);
         background-repeat: no-repeat no-repeat center;
         background-size: cover;
         width: 100%;
@@ -42,7 +41,7 @@ h2{
    left: 5rem;
   }
 /* MY IMAGES */
- .div{
+.div{
     display: grid;
     zoom: 40%;
     align-items: center;
@@ -56,7 +55,7 @@ h2{
 .my-img2{
     border: 5px solid #ff5a1e;
     border-radius: 2rem;
-}
+} 
 /* Header Styles */
 .logo{
     font-size: 25px;
@@ -78,6 +77,7 @@ nav {
     padding: 10px;
     position: fixed;
     width: 100%;
+    z-index: 89990;
 }
 
 .hamburger-menu {
@@ -127,6 +127,10 @@ nav {
     color: #fff;
 }
 
+.moon img{  
+    width: 50%;
+    height: 5vh;
+}
 
 /* Main Styles */
 main {
