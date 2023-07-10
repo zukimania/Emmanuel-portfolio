@@ -345,5 +345,23 @@
       <p>&copy; 2023 Ayodele Emmanuel. All rights reserved.</p>
     </div>
   </footer>
+
+
+  <script>
+    const options = {
+        threshold: 0.2,
+      }
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            observer.unobserve(entry.target);
+          }
+        })
+      }, options);
+
+      const boxElements = document.querySelectorAll(".img1");
+      boxElements.forEach((el) => observer.observe(el));
+  </script>
 </body>
 </html>

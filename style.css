@@ -10,10 +10,8 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: white;
-    /* background: linear-gradient(to bottom, #491d49, #1b2e2e); */
-    /* background: linear-gradient(to top, black, white); */
-    /* background: rgb(41, 35, 35); */
-        background: url(images/13398987_5221116.jpg);
+    background: linear-gradient(90deg, #4d0a4d, #205252);
+    /* background: linear-gradient(90deg, #389588, #2C4F6F); */
         background-repeat: no-repeat no-repeat center;
         background-size: cover;
         width: 100%;
@@ -122,15 +120,16 @@ nav {
     list-style-type: none;
     color: orangered;
     text-decoration: none;
+    /* font-size: 2rem; */
+    padding: 1rem;
 }
 .nav-links li a:hover{
     color: #fff;
+    background: linear-gradient(90deg,#ff1ee9, #1e92ff);
+    width: 50%;
+    border-radius: 15px;
 }
 
-.moon img{  
-    width: 50%;
-    height: 5vh;
-}
 
 /* Main Styles */
 main {
@@ -220,8 +219,8 @@ section h2 {
         transform: translateX(-1);
 }
 span {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background-color: #333;
     margin: 5px;
     padding: 5px;
@@ -230,10 +229,17 @@ span {
     text-align: center;
     align-items: center;
     justify-content: center;
+    transition: all 2s;
 }
 .img1{
-    display: flex;
+    /* display: flex; */
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-flow: row;
+        grid-row: 2;
+        grid-gap: 8px;
 }
+
 .img1 h4{
     font-size: 1rem;
 }
@@ -245,9 +251,12 @@ span {
     height: 40px;
 }
 span:hover{
-    border-bottom: 2px white solid;
-    border-left: 2px white solid;
+    border-bottom: 1px white solid;
+    border-left: 1px white solid;
     box-shadow: 2px 5px 10px rgba(255, 0, 0, 0.369);
+    background: linear-gradient(90deg,#ff1ee9, #1e92ff);
+    backdrop-filter: 10px;
+   
 }
 .skill-img{
     display: flex;
@@ -329,7 +338,8 @@ button[type="menu"] {
         transition: all 0.3s ease;
 }
 button[type="menu"]:hover{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background: linear-gradient(90deg,#ff1ee9, #1e92ff);
 }
 .social-icons2 a{
     text-decoration: none;
@@ -384,7 +394,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background: linear-gradient(90deg,#ff1ee9, #1e92ff);
 }
 
 /* Footer Styles */
