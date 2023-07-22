@@ -170,6 +170,24 @@ main {
 .about{
     text-align: center;
 }
+.cv{
+    max-width: 960px;
+      margin: 0 auto;
+    padding: 0 15px;
+    
+}
+.cv button{
+    padding: 10px 20px;
+    background-color: orangered;
+    border: transparent;
+    border-radius: 20px;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+.cv button:hover{
+    background: linear-gradient(90deg, #ff1ee9, #1e92ff);
+    color: #fff;
+}
 .container{
     opacity: 0;
         /* transform: translateY(30px); */
@@ -480,6 +498,9 @@ footer {
         }
         .social-media{
             zoom: 80%;
+            text-align: center;
+        }
+        .cv {
             text-align: center;
         }
         .welcome{

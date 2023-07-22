@@ -124,6 +124,20 @@
       </a>
 
   </div>
+
+  <div class="cv">
+    <a href="images/My Resume.jpg"><button onclick="file()">My Resume</button></a>
+  </div>
+  <script>
+    function file() {
+      const anchor = document.createElement("a");
+      anchor.href = "My Resume.jpg";
+      anchor.download = "My Resume.png";
+      document.body.appendChild(anchor);
+      anchor.click();
+    }
+  </script>
+
 </section>
 
   <main>
